@@ -1,6 +1,7 @@
 from main import *
 from bokeh.io import output_notebook
-output_notebook(hide_banner=True)
+from bokeh.resources import INLINE
+output_notebook(resources=INLINE, hide_banner=True)
 
 dblp = PaperCollection("DBLP1.csv")
 scholar = PaperCollection("Scholar.csv")
