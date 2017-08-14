@@ -11,6 +11,8 @@ Instructions for installing and running notebooks may be found at [install](http
 if there are difficulties running these notebooks, then HTML versions are also contained in this distribution
 (although, they're obviously non-interactive).
 
+**Note**: don't look at the notebooks directly on GitHub, as whilst they look like they're OK, you won't see any results,
+so the notebooks will be somewhat incomprehensible.
 
 # Files
 
@@ -38,4 +40,4 @@ matcher.py           | Classes for modelling paper-matching functions, allowing 
 match\_results.py    | A class for holding the results of a match in such a way to facilitate analysis.
 scorer.py            | A couple of classes for evaluating and presenting matches.
 utils.py             | The edit\_distance() function.
-- venues.py              Some utility functions for processing venue data.
+venues.py            | Some utility functions for processing venue data.
